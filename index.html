@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv en ligne</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 </head>
 <body>
     <aside id="aside-bar">
@@ -12,15 +13,19 @@
             <img id="photo" src="photo_mini.jpg" alt="photo perso" title="photo perso">
         </figure>
 
-        <adress id="contact">
-            <h2>CONTACT</h2>
-            <p>Adresse<br>Vitrolles, France</p>
-            <p>Téléphone<br>06285371**</p>
-            <p>Email<br>dehaut.*********@gmail.com</p>
-        </adress>
+        <h3>CONTACT</h3>
+
+        <ul id="contact">
+            <li>Adresse</li>
+            <li>Vitrolles, France</li><br>
+            <li>Téléphone</li>
+            <li>06285371**</li><br>
+            <li>Email</li>
+            <li>dehaut.*********@gmail.com</li>
+        </ul>
 
         <div id="moi">
-            <h2>A PROPOS DE MOI</h2>
+            <h3>A PROPOS DE MOI</h3>
             <p>motiver pour apprendre, je me forme depuis
                 plus d’un an sur des langages de programmation tels que HTML,
                 CSS, Javascript, Dart.<br>
@@ -33,96 +38,87 @@
         </div>
 
         <div id="loisir">
-            <h2>LOISIRS</h2>
+            <h3>LOISIRS</h3>
             
         </div>
     </aside>
 
-    <div>
+    <main>
 
-        <header id="titre">
+        
             <h1>Sébastien DEHAUT</h1>
-            <p>Développeur Web Freelance</p>
-        </header>
+            <h2>Développeur Freelance Vitrolles</h2>
+        
 
         <section>
-            <header class="titre">
-                
-                <h2 class="title"><i class="fa fa-graduation-cap"></i> FORMATION</h2>
-            </header>
+
+                <h3 class="title"><i class="fa fa-graduation-cap"></i> FORMATION</h3>
 
             <div id="formations">
-                <article>
-                    <p class="left"><i class="fa fa-dot-circle"></i>2020 - 2021</p>
-                    <p class="right">Openclassrooms<br>Certification Professionnel niveau 5 (Bac+2)<br>formation Développeur web a temps plein</p>
-                </article>
+                <ul>
+                    <li class="left"><i class="fa fa-dot-circle"></i>2020 - 2021</li>
+                    <li class="right">Openclassrooms<br>Certification Professionnel niveau 5 (Bac+2)<br>formation Développeur web a temps plein</li>
+                </ul>
 
-                <article>
-                    <p class="left"><i class="fa fa-circle"></i>2011 - 2012</p>
-                    <p class="right">ADREP vitrolles<br> Baccalauréat professionnel commerce<br>Formation accéléré en 6 mois sur le site de Vitrolles</p>
-                </article>
+                <ul>
+                    <li class="left"><i class="fa fa-circle"></i>2011 - 2012</li>
+                    <li class="right">ADREP vitrolles<br> Baccalauréat professionnel commerce<br>Formation accéléré en 6 mois sur le site de Vitrolles</li>
+                </ul>
             </div>
         </section>
 
         <section>
                 
-            <h2 class="title"><i class="fas fa-business-time"></i> EXPERIENCE</h2>
+            <h3 class="title"><i class="fas fa-business-time"></i> EXPERIENCE</h3>
             
-            <div class="flex" id="experiences">
-                <article>
+            <div id="experiences">
+                <div>
                     <p class="left"><i class="fa fa-dot-circle"></i> 07/2019 - actuel</p>
-                    <div class="right">
-                        <p>Auto-Entrepreneur<br><br> </p>
-                        <p>developpement Web et web mobile</p>
-                        <p>création de site web vitrine, pour des auto-entrepreneurs et artisans</p>
-                    </div>
-                </article>
+                    <ul class="right">
+                        <li>Auto-Entrepreneur</li>
+                        <li>developpement Web et web mobile</li>
+                        <li>création de site web vitrine, pour des auto-entrepreneurs et artisans</li>
+                    </ul>
+                </div>
 
-                <article>
-                    
+                <div>
                     <p class="left"><i class="fa fa-circle"></i> 02/2016 - 06/2019</p>
-                    <div class="right">
-                        <p>Microsoft</p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </article>
+                    <ul class="right">
+                        <li>Microsoft</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
 
-                <article>
-                    
+                <div>
                     <p class="left"><i class="fa fa-circle"></i> 01/2008 - 12/2015</p>
-                    <div class="right">
-                        <p>Appel</p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </article>
+                    <ul class="right">
+                        <li>Appel</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
             </div>
         </section>
 
         <section>
+                <h3 class="title"><i class="fas fa-pen"></i> RECOMMANDATIONS</h3>
+            <div id="recommandations">
+                <ul>
+                    <li>nom</li>
+                    <li>prénom</li>
+                    <li>recommandation</li>
+                </ul>
 
-            <header class="titre">
-                
-                <h2 class="title"><i class="fas fa-pen"></i> RECOMMANDATIONS</h2>
-            </header>
-            
-            <div class="flex" id="recommandations">
-                <article>
-                    <h3>nom</h3>
-                    <p>prénom</p>
-                    <p>recommandation</p>
-                </article>
-
-                <article>
-                    <h3>nom</h3>
-                    <p>prénom</p>
-                    <p>recommandation</p>
-                </article>
+                <ul>
+                    <li>nom</li>
+                    <li>prénom</li>
+                    <li>recommandation</li>
+                </ul>
             </div>
         </section>
 
-    </div>
+    </main>
     
 
 </body>
