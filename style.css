@@ -16,23 +16,70 @@
 
 /*General*/
 
+body{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
 *{
     font-family: 'Montaga', Arial, Helvetica, sans-serif;
 }
 
-aside{
-    background-color: #76FF03;
+li{
+    list-style: none;
 }
-
-/* header */
 
 #photo{
     border-radius : 50%;
 }
-/* main */
+
+h3{
+    color: #558B2F;
+    font-size: 2rem;
+    text-align: left;
+}
+
+h4{
+    font-size: 1.5rem;
+    background-color: black;
+    color: #777777;
+}
 
 /*aside*/
 
+aside{
+    background-color: #76FF03;
+    width: 25%;
+    margin-right: 3%;
+    border-radius: 5px;
+}
+
+#aside-bar{
+    flex-direction: column;
+}
+
+/* main */
+
+main{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+
+/* header */
+
+h1, h2{
+    text-align: left;
+}
+h1{
+    padding-bottom: 0,1rem;
+}
+
+h2{
+    margin-bottom: 5rem;
+}
 /*formations*/
 
 /*experiences*/
