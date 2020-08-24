@@ -51,6 +51,7 @@ h4{
     display: flex;
 }
 
+
 /*aside*/
 
 aside{
@@ -63,6 +64,11 @@ aside{
 #icone{
     font-size: 2rem;
     text-align: center;
+}
+
+#loisir{
+    position: static;
+    bottom: 0;
 }
 
 /* main */
