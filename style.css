@@ -26,6 +26,7 @@ body{
 
 li{
     list-style: none;
+    text-align: center;
 }
 
 #photo{
@@ -45,16 +46,28 @@ h4{
     color: #777777;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
 /*aside*/
 
 aside{
     background-color: #76FF03;
-    width: 25%;
+    width: 20%;
     margin-right: 3%;
     border-radius: 5px;
 }
 
 /* main */
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+
 
 /* header */
 
@@ -69,6 +82,9 @@ h2{
 
 /*formations*/
 
+
 /*experiences*/
 
+
 /*recommandations*/
+
