@@ -102,6 +102,10 @@ main{
     margin-bottom: 0px;
 }
 
+.icone-main{
+    font-size: 1rem;
+    margin-right: 10px;
+}
 /* header */
 
 h1{
@@ -135,6 +139,14 @@ h2{
 
 /*recommandations*/
 
-.container2{
-    
+.element-bas{
+    padding: 0px;
+}
+
+.element-bas:nth-child(1){
+    width: 35%;
+    margin-right: 10rem;
+}
+.element-bas:nth-child(2){
+    width: 35%;
 }
