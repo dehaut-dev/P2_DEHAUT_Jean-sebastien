@@ -26,18 +26,18 @@ body{
 
 li{
     list-style: none;
-    text-align: center;
 }
 
 img{
     border-radius : 50%;
     display: block;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 h3{
     color: #558B2F;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     margin-bottom: 0px;
 }
@@ -47,7 +47,6 @@ h4{
     font-size: 1.5rem;
     background-color: black;
     color: white;
-    border-radius: 10px;
 }
 
 .container{
@@ -59,31 +58,44 @@ h4{
 
 aside{
     background-color: #558B2F;
-    width: 25%;
+    width: 33.5%;
     margin-right: 3%;
     border-radius: 5px;
-    padding-right: 3%;
-    padding-left: 3%;
+}
+
+.contact{
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 #icone-aside{
     font-size: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #loisir{
-    margin-top: 19rem;
+    margin-top: 8rem;
 }
 
+#contact{
+    text-align: left;
+    padding: 0;
+}
 /* main */
 
+#color-title{
+    color: #558B2F;
+}
 
 main{
-    width: 75%;
+    width: 66.5%;
     height: auto;
 }
 
+main li{
+    text-align: left;
+}
 .element:nth-child(2)
 {
     flex: 2;
@@ -127,7 +139,7 @@ h2{
 	height:3px;
     background-color:#558B2F;
     margin-right: 5%;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -140,6 +152,7 @@ h2{
 /*recommandations*/
 
 .element-bas{
+    text-align: left;
     padding: 0px;
 }
 
