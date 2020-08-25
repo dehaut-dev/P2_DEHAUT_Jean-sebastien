@@ -39,6 +39,7 @@ h3{
     color: #558B2F;
     font-size: 2rem;
     text-align: left;
+    margin-bottom: 0px;
 }
 
 h4{
@@ -65,17 +66,18 @@ aside{
     padding-left: 3%;
 }
 
-#icone{
+#icone-aside{
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
 }
 
 #loisir{
-    margin-top: 17rem;
+    margin-top: 19rem;
 }
 
 /* main */
+
 
 main{
     width: 75%;
@@ -88,7 +90,16 @@ main{
 }
 
 .title{
-    
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0px;
+}
+
+.icone-title{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #558B2F;
+    margin-bottom: 0px;
 }
 
 /* header */
@@ -99,6 +110,19 @@ h1{
 
 h2{
     text-align: left;
+    margin-bottom: 5rem;
+}
+.souli{
+    text-decoration: underline;
+    text-decoration-color: #558B2F;
+    text-decoration-thickness: 60px;
+}
+
+.souli2{
+    width: 95%;
+	height:3px;
+    background-color:#558B2F;
+    margin-right: 5%;
     margin-bottom: 5rem;
 }
 
