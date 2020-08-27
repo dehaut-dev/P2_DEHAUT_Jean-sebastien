@@ -143,13 +143,19 @@ h2{
 
 /*formations*/
 
-/* .align-right{
-    margin-left: 0.4rem;
-} */
+.align-formation{
+    margin-left: 1rem;
+    margin-right: 6rem;
+}
+
+.align-formation-2{
+    margin-left: 1rem;
+    margin-right: 6.8rem;
+}
 
 /*experiences*/
 
-.align-right{
+.align-exp{
     margin-left: 1rem;
     margin-right: 2.5rem;
 }
