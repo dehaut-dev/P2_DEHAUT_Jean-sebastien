@@ -187,3 +187,134 @@ h2{
 .element-bas:nth-child(2){
     width: 35%;
 }
+
+/* Media querry  */
+
+@media screen and (max-width: 1023px)
+{
+    *{
+        width: auto;
+        height: auto;
+    }
+
+    /* ASIDE */
+
+    aside{
+        background-color: #558B2F;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin: 0;
+    }
+    body{
+        display: block;
+        margin: 0;
+    }
+    li{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    img{
+        border-radius : 50%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding-top: 5px;
+    }
+    
+    .container{
+        width: 100%;
+        height: auto;
+        margin-left: 0rem;
+        display: flex;
+    }
+    #loisir{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #icone-aside{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* GENERAL */
+
+    main{
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+    h2{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .souli{
+        text-decoration: underline;
+        text-decoration-color: #558B2F;
+        text-decoration-thickness: 60px;
+    }
+
+    .icone-title{
+        font-size: 1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        color: #558B2F;
+        margin-bottom: 0px;
+    }
+    
+    .icone-main{
+        font-size: 0.7rem;
+        margin-right: 0px;
+    }
+    .container{
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .align-formation{
+        margin-left: 1rem;
+        margin-right: 0rem;
+    }
+    
+    .align-formation-2{
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+    }
+    h3{
+        color: #558B2F;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .align-exp{
+        margin-left: 1rem;
+        margin-right: 0.3rem;
+    }
+
+    .container-bas{
+        display: block;
+    }
+
+    .element-bas{
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .element-bas:nth-child(1){
+        width: 100%;
+    }
+    .element-bas:nth-child(2){
+        padding-left: 1rem;
+        width: 100%;
+    }
+}
