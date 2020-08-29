@@ -183,8 +183,7 @@ h2{
 
 /* Media querry  */
 
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px){
     /* general */
 
     body{
@@ -283,7 +282,10 @@ h2{
         margin-left: 0rem;
         margin-right: 0;
     }
+}
 
+@media screen and (max-width: 425px)
+{
     .container-bas{
         display: flex;
         flex-direction: column;
