@@ -114,11 +114,6 @@ main li{
     display: flex;
     flex-direction: column;
 }
-.souli{
-    text-decoration: underline;
-    text-decoration-color: #558B2F;
-    text-decoration-thickness: 60px;
-}
 .souli2{
     width: 95%;
 	height:2px;
@@ -136,6 +131,11 @@ h1{
 h2{
     text-align: left;
     margin-bottom: 5rem;
+}
+.souli{
+    text-decoration: underline;
+    text-decoration-color: #558B2F;
+    text-decoration-thickness: 6px;
 }
 
 /*formations*/
@@ -241,18 +241,15 @@ h2{
         justify-content: space-around;
     }
 }
-@media screen and (max-width: 425px)
-{
+@media screen and (max-width: 425px){
     .container-bas{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
     ul{
         padding-right: 2px;
     }
-
     li{
         font-size: 16px;
     }
