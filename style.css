@@ -308,3 +308,9 @@ h2{
         display: none;
     }
 }
+
+@media screen and (min-width: 1350px){
+    #loisir{
+        margin-top: 13rem;
+    }
+}
