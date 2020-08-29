@@ -257,6 +257,11 @@ h2{
         margin-bottom: 1rem;
     }
 
+    h3{
+        font-size: 1rem;
+        text-align: center;
+    }
+
     /*formations*/
 
     .align-formation{
@@ -267,11 +272,6 @@ h2{
     .align-formation-2{
         margin-left: 0;
         margin-right: 1rem;
-    }
-    
-    h3{
-        font-size: 1.5rem;
-        text-align: center;
     }
 
     .souli2{
