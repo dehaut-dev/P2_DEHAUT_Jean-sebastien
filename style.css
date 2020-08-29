@@ -113,6 +113,7 @@ main li{
 .container-2{
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
 }
 .souli2{
     width: 95%;
@@ -163,6 +164,9 @@ h2{
 
 .container-bas ul{
     padding-left: 0;
+}
+.align-bas{
+    margin-right: 15%;
 }
 
 /* Media querry  */
@@ -263,5 +267,8 @@ h2{
     }
     .icone-main{
         display: none;
+    }
+    .align-bas{
+        margin-right: 0;
     }
 }
