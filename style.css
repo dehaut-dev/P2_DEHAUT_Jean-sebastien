@@ -18,10 +18,11 @@
 
 body{
     display: flex;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-*{
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+ul{
+    padding-right: 15px;
 }
 
 li{
@@ -41,10 +42,8 @@ img{
 }
 
 .container{
-    margin-left: 1rem;
     display: flex;
 }
-
 
 /*aside*/
 
@@ -52,6 +51,7 @@ aside{
     background-color: #558B2F;
     width: 33.5%;
     margin-right: 3%;
+    margin-left: 1px;
     border-radius: 5px;
 }
 
@@ -74,9 +74,9 @@ h4{
 }
 
 #loisir{
-    margin-top: 18rem;
+    margin-top: 9rem;
+    margin-bottom: 1rem;
 }
-
 
 /* main */
 
@@ -118,6 +118,7 @@ main li{
     font-size: 0.7rem;
     margin-right: 10px;
 }
+
 /* header */
 
 h1{
@@ -143,21 +144,20 @@ h2{
     margin-top: 1rem;
 }
 
-
 /*formations*/
 
 .align-formation{
     margin-left: 1rem;
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 .align-formation-2{
     margin-left: 1rem;
-    margin-right: 4.8rem;
+    margin-right: 3.5rem;
 }
 
 .titre-forma{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     padding-bottom: 0.8rem;
 }
@@ -166,27 +166,30 @@ h2{
 
 .align-exp{
     margin-left: 1rem;
-    margin-right: 2.5rem;
 }
 
 /*recommandations*/
 
 .container-bas{
     display: flex;
-    justify-content: space-between;
-
+    flex-direction: row;
+    padding-left: 0;
 }
 
+.container-bas ul{
+    padding-left: 0;
+    padding-right: 25px;
+}
 
 /* Media querry  */
 
-@media screen and (max-width: 1023px)
+@media screen and (max-width: 768px)
 {
     /* general */
 
     body{
-        display: block;
-        margin: 0;
+        display: flex;
+        flex-direction: column;
     }
     ul{
         padding-right: 2px;
@@ -199,26 +202,18 @@ h2{
         font-size: 16px;
     }
 
-    .container{
-        width: 100%;
-        height: auto;
-        margin-left: 0rem;
-        display: flex;
-    }
-
     /* ASIDE */
+
+    body aside{
+        margin: 0;
+        }
 
     aside{
         width: 100%;
         height: auto;
-        border-radius: 0;
-        margin: 0;
     }
 
     img{
-        border-radius : 50%;
-        display: block;
-        margin: 0 auto;
         margin-top: 0px;
         padding-top: 5px;
     }
@@ -228,18 +223,30 @@ h2{
         margin-top: 0;
     }
     #icone-aside{
-        font-size: 18px;
-        display: flex;
-        justify-content: space-around;
+        font-size: 25px;
         padding-bottom: 2rem;
     }
 
-    /* GENERAL */
+    /* MAIN */
 
     main{
         width: 100%;
         height: auto;
     }
+
+    .icone-title{
+        font-size: 1.5rem;
+        margin-right: 0;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .icone-main{
+        font-size: 14px;
+        margin-right: 2px;
+    }
+
+    /* header */
 
     h1{
         text-align: center;
@@ -249,53 +256,37 @@ h2{
         text-align: center;
         margin-bottom: 1rem;
     }
-    .souli{
-        text-decoration: underline;
-        text-decoration-color: #558B2F;
-        text-decoration-thickness: 60px;
-    }
 
-    .icone-title{
-        font-size: 1rem;
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-        color: #558B2F;
-        margin-bottom: 0px;
-    }
-    
-    .icone-main{
-        font-size: 14px;
-        margin-right: 2px;
-    }
-    .container{
-        margin-left: 0rem;
-        display: flex;
-        flex-direction: row;
-    }
+    /*formations*/
 
     .align-formation{
-        margin-left: 1rem;
+        margin-left: 0;
         margin-right: 0rem;
     }
     
     .align-formation-2{
-        margin-left: 1rem;
+        margin-left: 0;
         margin-right: 1rem;
     }
+    
     h3{
-        font-size: 20px;
+        font-size: 1.5rem;
         text-align: center;
-        margin-bottom: 0px;
+    }
+
+    .souli2{
+        width: 100%;
+        margin-right: 0;
     }
 
     .align-exp{
-        margin-left: 1rem;
-        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-right: 0;
     }
 
     .container-bas{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
     }
 }
