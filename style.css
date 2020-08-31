@@ -81,6 +81,7 @@ h3{
 main{
     width: 66.5%;
     height: auto;
+    margin-left: 40px;
 }
 main li{
     text-align: left;
@@ -110,11 +111,7 @@ main li{
     justify-content: space-around;
     
 }
-.container-2{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-}
+
 .souli2{
     width: 95%;
 	height:2px;
@@ -147,11 +144,21 @@ h2{
     font-weight: bold;
     padding-bottom: 0.8rem;
 }
+.container-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
 
 /*experiences*/
 
 .align{
     margin-block-end: 3.8em;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.3rem;
 }
 
 /*recommandations*/
@@ -205,6 +212,7 @@ h2{
     main{
         width: 100%;
         height: auto;
+        margin-left: 0;
     }
     .icone-title{
         font-size: 1.5rem;
@@ -239,8 +247,19 @@ h2{
     .title{
         justify-content: center;
     }
+    /* experience */
 
-    /*formations*/
+    .container-2{
+        margin-left: 0;
+        padding-left:5%;
+    }
+
+    .container-3{
+        margin: 0;
+        padding: 0;
+    }
+
+    /*recommandation*/
 
     .container-bas{
         justify-content: space-around;
@@ -270,5 +289,8 @@ h2{
     }
     .align-bas{
         margin-right: 0;
+    }
+    .container-2{
+        padding-left:0;
     }
 }
