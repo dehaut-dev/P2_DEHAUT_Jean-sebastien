@@ -16,18 +16,13 @@
 body{
     display: flex;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-}
-ul{
-    margin-left: 0;
-    padding-right: 15px;
+    margin: 0;
 }
 li{
     list-style: none;
-    font-size: 1.1rem;
 }
-p{
+p, li{
     font-size: 1.1rem;
-    margin-block-start: 0;
 }
 img{
     border-radius : 50%;
@@ -41,9 +36,6 @@ img{
 aside{
     background-color: #558B2F;
     width: 33.5%;
-    margin-right: 3%;
-    margin-left: 1px;
-    border-radius: 5px;
 }
 h4{
     text-align: center;
@@ -52,8 +44,7 @@ h4{
     color: white;
 }
 .contact{
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 0 10% 0 10%;
 }
 #icone-aside{
     font-size: 2rem;
@@ -80,9 +71,7 @@ h3{
 main{
     width: 66.5%;
     height: auto;
-    margin-left: 40px;
-}
-main li{
+    margin-left: 30px;
     text-align: left;
 }
 .title{
@@ -100,17 +89,15 @@ main li{
     font-size: 0.7rem;
     margin-right: 10px;
 }
-.div-align{
-    display: flex;
-    flex-direction: row;
-}
 .container{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
 }
-
+.children:nth-child(2) {
+    flex: 2 67%;
+}
+.children:nth-child(1){
+    flex: 2 33%;
+}
 .souli2{
     width: 95%;
 	height:2px;
@@ -124,6 +111,7 @@ main li{
 
 h1{
     text-align: left;
+    margin-top: 5rem;
 }
 h2{
     text-align: left;
@@ -132,7 +120,6 @@ h2{
 .souli{
     text-decoration: underline;
     text-decoration-color: #558B2F;
-    text-decoration-thickness: 2px;
     border-radius: 40%;
 }
 
@@ -143,36 +130,24 @@ h2{
     font-weight: bold;
     padding-bottom: 0.8rem;
 }
-.container-2{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-}
 
 /*experiences*/
-
-.align{
-    margin-block-end: 3.8em;
-}
-.container-3{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1.3rem;
-}
 
 /*recommandations*/
 
 .container-bas{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: start;
 }
-
-.container-bas ul{
+.children-2:nth-child(2) {
+    flex: 2 50%;
+}
+.children-2:nth-child(1){
+    flex: 2 50%;
+}
+ul,.children-2{
     padding-left: 0;
-}
-.align-bas{
-    margin-right: 10%;
 }
 
 /* Media querry  */
@@ -186,10 +161,6 @@ h2{
     }
 
     /* ASIDE */
-
-    body aside{
-        margin: 0;
-        }
     aside{
         width: 100%;
         height: auto;
@@ -212,26 +183,31 @@ h2{
         width: 100%;
         height: auto;
         margin-left: 0;
+        text-align: center;
     }
     .icone-title{
         font-size: 1.5rem;
-        margin-right: 0;
+        margin-right: 10px;
         padding-right: 0.5rem;
         padding-left: 0.5rem;
     }
     .icone-main{
         font-size: 14px;
-        margin-right: 2px;
+        margin-right: 10px;
     }
     .souli2{
         width: 100%;
         margin-right: 0;
+    }
+    li{
+        padding: 0 7% 0 7%;
     }
 
     /* header */
 
     h1{
         text-align: center;
+        margin-top: 1rem;
     }
     h2{
         text-align: center;
@@ -240,28 +216,18 @@ h2{
     h3{
         font-size: 2rem;
     }
-    .div-align{
-        justify-content: space-around;
-    }
     .title{
         justify-content: center;
     }
-    /* experience */
-
-    .container-2{
-        margin-left: 0;
-        padding-left:7%;
+    /* main */
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
     }
-
-    .container-3{
-        margin: 0;
-        padding: 0;
-    }
-
-    /*recommandation*/
-
-    .container-bas{
-        justify-content: space-around;
+    .children:nth-child(2){
+        margin-top: 0;
     }
 }
 @media screen and (max-width: 425px){
@@ -270,26 +236,11 @@ h2{
         flex-direction: column;
         justify-content: center;
     }
-    ul{
-        padding-right: 2px;
-    }
-    li{
-        font-size: 16px;
-    }
-    p{
+    li, p{
         font-size: 16px;
     }
     h3{
         font-size: 1.3rem;
         text-align: center;
-    }
-    .icone-main{
-        display: none;
-    }
-    .align-bas{
-        margin-right: 0;
-    }
-    .container-2{
-        padding-left:0;
     }
 }
