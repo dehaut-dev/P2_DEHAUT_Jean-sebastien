@@ -29,6 +29,7 @@ img{
     display: block;
     margin: 0 auto;
     margin-top: 50px;
+    box-shadow: 2px 2px 2px 5px rgb(0, 0, 0, 0.5);
 }
 
 /*aside*/
@@ -52,7 +53,7 @@ h4{
     justify-content: space-around;
 }
 #loisir{
-    margin-top: 50%;
+    margin-top: 100%;
     margin-bottom: 1rem;
 }
 
@@ -106,6 +107,10 @@ main{
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
+.entreligne{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
 
 /* header */
 
@@ -126,9 +131,10 @@ h2{
 /*formations*/
 
 .titre-forma{
-    font-size: 1.3rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 3000;
     padding-bottom: 0.8rem;
+    text-transform: uppercase;
 }
 
 /*experiences*/
